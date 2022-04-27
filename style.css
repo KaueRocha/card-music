@@ -39,14 +39,14 @@ p {
 }
 
 .plan{
-border-radius: 20px;
-background-color: hsl(225, 100%, 98%);
-margin: 10px;
-padding: 10px;
-text-align: center;
-display: flex;
-align-items: center;
-justify-content: space-around;
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 img {
   display: inline-block;
