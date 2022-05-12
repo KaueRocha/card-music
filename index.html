@@ -22,7 +22,7 @@
           <span class="plan-name">Annual Plan</span>
           <span class="plan-price">$59.99/year</span>
         </div>
-        <a class="signatures">Change</a>
+        <a  onclick="openModal()" class="signatures">Change</a>
       </div>
     </div>
     <button class="button-first">Proceed to Payment</button>
@@ -31,6 +31,7 @@
   <div class="modal">
     <div class="modal-bg">
       <div class="modal-body">
+        <div onclick="closedModal()" class="closed"><p>x</p></div>
         <div class="option-plan">
           <h3>biweekly plan</h3>
           <p class="plan-price">$3/biweekly</p>
@@ -42,9 +43,10 @@
         <div class="option-plan">
           <h3>Annual plan</h3>
           <p class="plan-price">$59.99/year</p>
-        </div>s
+        </div>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
